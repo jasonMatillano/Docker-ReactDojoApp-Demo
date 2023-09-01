@@ -2,11 +2,13 @@
 FROM node:14-alpine AS build
 WORKDIR /app
 
-# Copy package.json and package-lock.json
-COPY package*.json ./
+# Copy package.json and package-lock.json to working directory . (app)
+COPY package*.json .
+
+# Install dependencies in the working directory . (app)
 RUN npm install
 
-# Copy the rest of the application code
+# Copy the rest of the application code to working directory . (app)
 COPY . .
 
 # Build the React app
