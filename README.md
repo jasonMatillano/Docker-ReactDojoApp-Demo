@@ -11,14 +11,12 @@ docker
 
 You should see something in your terminal like : 
 
----------------------------------------------------------------
 Usage:  docker [OPTIONS] COMMAND
 A self-sufficient runtime for containers
 Common Commands:
   run         Create and run a new container from an image
   exec        Execute a command in a running container
   ps          List containers ....
----------------------------------------------------------------
 
 This means that docker is installed in your machine
 
