@@ -4,11 +4,10 @@ This project is a demo on how to setup react app in docker
 
 ## Step 1: Check Docker in your Machine
 
-Make sure your docker engine is up and running.
-
-## Open your terminal and run the following
-
-### `docker`
+Make sure your docker engine is up and running. Open your terminal and run the following
+```
+docker
+```
 
 You should see something in your terminal like : 
 
