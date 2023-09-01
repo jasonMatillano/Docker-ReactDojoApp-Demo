@@ -1,4 +1,4 @@
-# Stage 1: Build the React app
+# STAGE 1: Build the React app
 FROM node:14-alpine AS build
 WORKDIR /app
 
@@ -12,7 +12,7 @@ COPY . .
 # Build the React app
 RUN npm run build
 
-# Stage 2: Serve the app using a lightweight server
+# STAGE 2: Serve the app using a lightweight server
 FROM nginx:alpine
 
 # Copy built files from the previous stage
