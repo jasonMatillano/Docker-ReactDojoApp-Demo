@@ -1,12 +1,31 @@
 # Docker React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a demo on how to setup react app in docker
 
-## Available Scripts
+## Step 1: Check Docker in your Machine
 
-In the project directory, you can run:
+Make sure your docker engine is up and running.
 
-### `npm start`
+## Open your terminal and run the following
+
+### `docker`
+
+You should see something in your terminal like : 
+
+---------------------------------------------------------------
+Usage:  docker [OPTIONS] COMMAND
+A self-sufficient runtime for containers
+Common Commands:
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers ....
+---------------------------------------------------------------
+
+This means that docker is installed in your machine
+
+Next Run:
+
+### `git clonehttps://github.com/jasonMatillano/docker-react-dojo.git`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
